@@ -7,3 +7,5 @@ All credit for the code goes to Apache Tomcat.
 ## Servlet Version
 
 For maximum compatibility, this library currently uses `javax.servlet` instead of `jakarta.servlet`. That's the only change made to the Tomcat source code.
+
+It is expected that consuming projects will have the `javax.servlet` dependency.
