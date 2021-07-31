@@ -18,6 +18,8 @@ It is expected that consuming projects will have this dependency, either directl
 </dependency>
 ```
 
+NOTE: It is expected that the consuming project will be on a 4.x version of this library.
+
 ## Adding the Filter
 
 The `RestCsrfPreventionFilter` needs to be manually added to the servlet it needs to filter. How this is done will vary based on the implementation, be it Tomcat, Spring Embedded Tomcat, Jetty, etc.
