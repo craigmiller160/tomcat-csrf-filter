@@ -71,7 +71,7 @@ import java.util.regex.Pattern;
  *              |\                                |
  * </pre>
  */
-public class JakartaRestCsrfPreventionFilter extends CsrfPreventionFilterBase {
+public class JakartaRestCsrfPreventionFilter extends JakartaCsrfPreventionFilterBase {
     private enum MethodType {
         NON_MODIFYING_METHOD, MODIFYING_METHOD
     }

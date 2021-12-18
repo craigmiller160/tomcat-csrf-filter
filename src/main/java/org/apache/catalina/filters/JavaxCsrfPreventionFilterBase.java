@@ -26,11 +26,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.security.SecureRandom;
 import java.util.Random;
 
-public abstract class CsrfPreventionFilterBase extends FilterBase {
+public abstract class JavaxCsrfPreventionFilterBase extends JavaxFilterBase {
 
     // Log must be non-static as loggers are created per class-loader and this
     // Filter may be used in multiple class loaders
-    private final Logger log = LoggerFactory.getLogger(CsrfPreventionFilterBase.class); // must not be static
+    private final Logger log = LoggerFactory.getLogger(JavaxCsrfPreventionFilterBase.class); // must not be static
 
     private String randomClass = SecureRandom.class.getName();
 

@@ -29,9 +29,9 @@ import java.util.Enumeration;
  * Base class for filters that provides generic initialisation and a simple
  * no-op destruction.
  */
-public abstract class FilterBase implements Filter {
+public abstract class JakartaFilterBase implements Filter {
 
-    protected static final StringManager sm = StringManager.getManager(FilterBase.class);
+    protected static final StringManager sm = StringManager.getManager(JakartaFilterBase.class);
 
     protected abstract Logger getLogger();
 
